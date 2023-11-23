@@ -15,7 +15,7 @@ let button_2 = document.getElementById('button-2')
 let button_3 = document.getElementById('button-3')
 let foiz = document.getElementById('button%')
 let button_0 = document.getElementById('button-0')
-let teng = document.getElementById('button=')
+let teng = document.getElementById('button_teng')
 
 
 
@@ -346,6 +346,10 @@ foiz.addEventListener('click', () => {
          text.innerText = num1
       })
    
+})
+
+buttonac.addEventListener('click', () => {
+    location.reload("http://127.0.0.1:5503/index.html")
 })
 
 
